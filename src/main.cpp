@@ -1,8 +1,9 @@
 #include <iostream>
-using namespace std;
+#include "def.cpp" // I can't figure out how to include dec.h and run properly
 
 int main()
 {
-    cout << "Hello World!";
+    Sort s(10);
+    s.printNums();
     return 0;
 }
